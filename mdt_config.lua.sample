@@ -5,8 +5,8 @@ local cfg = {}
 
 cfg.cad_url = "https://yourcad.cadvanced.app" -- The full URL of your CAD
 cfg.homepage = "WELCOME TO MY MDT!" -- Text to be displayed on the front page of the MDT
-cfg.api_token = "" -- Your CAD's API token, see Admin > Preferences in the CAD
-cfg.enable_whitelist = false -- Only allow players with the "Player" role to join
+cfg.api_token = "123456" -- Your CAD's API token, see Admin > Preferences in the CAD
+cfg.enable_whitelist = true -- Only allow players with the "Player" role to join
 cfg.sound_volume = 0.5 -- The volume of MDT sounds
 cfg.debug = false -- Debug mode - do not enable unless requested by support
 cfg.panic_command = "panic" -- The command ( WITHOUT THE / ) to be used to create a panic call
@@ -28,8 +28,8 @@ cfg.call_command = "call" -- The command ( WITHOUT THE / ) to be used to place a
 cfg.call_keybind_first = "19" -- The first keybind to use to open the terminal (default Left Alt)
 cfg.call_keybind_second = "197" -- The second keybind to use to open the terminal (default ])
 cfg.call_number = "999" -- The number that is dialed when a citizen places a call
-cfg.call_ring_filename = "ringing_uk.ogg" -- Sound file used for ringing tone
-cfg.call_busy_filename = "busy_uk.ogg" -- Sound file used for busy tone
+cfg.call_ring_filename = "ringing_us.ogg" -- Sound file used for ringing tone
+cfg.call_busy_filename = "busy_us.ogg" -- Sound file used for busy tone
 cfg.self_dispatch = false -- Enable self dispatch in the MDT
 cfg.call_require_citizen = true -- Requires active citizen to create a 911 Call
 -- ##################################
